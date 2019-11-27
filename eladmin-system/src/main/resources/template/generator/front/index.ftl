@@ -84,9 +84,8 @@
 import checkPermission from '@/utils/permission'
 import initData from '@/mixins/initData'
 import { del, download${className} } from '@/api/${changeClassName}'
-<#if hasTimestamp>
 import { parseTime, downloadFile } from '@/utils/index'
-</#if>
+
 import eForm from './form'
 export default {
   components: { eForm },
